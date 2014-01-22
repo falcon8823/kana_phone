@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'kana_phone'
+
+while line = STDIN.gets
+  conv = KanaPhone.new
+  text = conv.hira2kata(line)
+  result = conv.kana2phone_text(text)
+
+  STDOUT.puts result
+end
