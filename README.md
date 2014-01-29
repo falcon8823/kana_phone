@@ -1,5 +1,7 @@
 # KanaPhone
 
+[![Build Status](https://travis-ci.org/falcon8823/kana_phone.png?branch=master)](https://travis-ci.org/falcon8823/kana_phone)
+
 ひらがなを音素列に変換します。
 
 ## Installation
