@@ -59,7 +59,7 @@ class KanaPhone
   end 
 
   def kana2phone_text(text)
-    result = kana2phone(text)
+    result = kana2phone(hira2kata(text))
     result.map {|h| h[:phone] }.join(' ')
   end
 end
