@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = KanaPhone::VERSION
   spec.authors       = ["Hayato OKUMOTO"]
   spec.email         = ["falcon@falconsrv.net"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Translate from hiragana to phone expression.}
+  spec.description   = %q{Translate from hiragana to phone expression.}
   spec.homepage      = ""
   spec.license       = "MIT"
 

@@ -8,15 +8,11 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'kana-phone'
+    gem 'kana-phone', git: 'https://github.com/falcon8823/kana_phone.git'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install .
 
 ## Usage
 
@@ -26,7 +22,7 @@ $ bin/kana2phone
 
 ## Contributing
 
-1. Fork it ( http://github.com/falcon_8823/kana_phone/fork )
+1. Fork it ( http://github.com/falcon\_8823/kana\_phone/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
