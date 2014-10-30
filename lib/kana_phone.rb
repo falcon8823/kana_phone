@@ -9,7 +9,7 @@ class KanaPhone
 
   def initialize
     @kana2phone = {}
-    table = CSV.table CONV_DATA
+    table = CSV.table CONV_DATA, encoding: 'UTF-8'
 
     table.each do |r|
       @kana2phone[r[:kana]] = r[:phone]
